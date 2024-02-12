@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
+  }
+  
+  :root {
+    --backCard: rgba(17, 17, 17, 0.96);
+    --textTitle: white;
+    --text: rgb(45, 45, 45);
+    --button: rgb(223, 134, 0);
+    --background: rgb(238, 238, 238);
+    --background2: rgb(181, 181, 181)
+  }
+  
+  
+  a {
+    text-decoration: none;
+    text-align: var(--text);
+  }
+  
+  .button {
+    border: none;
+    padding: 0.8rem;
+    border-radius: 0.4rem;
+    background-color: var(--button);
+    color: var(--textTitle);
+    margin-top: 1rem;
+    width: 100%;
+    margin-inline: auto;
+    font-size: 1.2rem;
+    cursor: pointer;
+  }
+  
+  textarea {
+    margin-top: 0.5rem;
+    border-radius: 0.5rem;
+    border: none;
+    width: 100%;
+    outline: none;
+    padding: 1rem;
+    border: 1px solid var(--button);
+  }
+  
+  label {
+    color: var(--text);
+  }
+  
+  .input {
+    margin-top: 0.4rem;
+    margin-bottom: 1rem;
+    padding: 0.6rem;
+    border: none;
+    border-radius: 0.3rem;
+    width: 100%;
+    outline: none;
+    border: 1px solid var(--button);
+  }
+  
+  .seamore {
+    padding: 0.5rem;
+    background-color: var(--button);
+  }
+  
+  .error {
+    min-width: 100%;
+    padding: 0.5rem;
+    border: 1px solid red;
+    border-radius: 0.4rem;
+    color: red;
+    margin-top: 0.5rem;
+  }
+  
+  .dash {
+    color: var(--button);
+  }
+  
+  .disable {
+    cursor: auto;
+    background-color: var(--text);
+  
+  }
+  
+  
+  /*===========================================FOR_INTERACTION_OF_POEPLE==============================================*/
+  .interaction {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .edit {
+    color: darkgreen;
+    cursor: pointer;
+  }
+  
+  .delete {
+    color: rgb(223, 0, 0);
+    cursor: pointer;
+}
+
+.commentbutton {
+  color: green;
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  cursor: pointer;
+}
+
+.like {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  cursor: pointer;
+}

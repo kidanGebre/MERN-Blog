@@ -1,0 +1,114 @@
+.detail_container {
+  width: 80%;
+  margin-inline: auto;
+  margin-top: 3rem;
+}
+
+.up_post {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 2rem;
+  gap: 2rem;
+}
+.up_post .cover {
+  width: 60%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.up_left_post {
+  width: 40%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  gap: 1rem;
+  color: var(--text);
+}
+.up_left_post .summary {
+  font-size: 1.2rem;
+}
+.up_left_post h2 {
+  font-size: 3rem;
+}
+.up_left_post span {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 0.5rem;
+}
+.up_left_post .creator {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 1rem;
+  color: var(--text);
+}
+.up_left_post .creator img {
+  width: 70px;
+  height: 70px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 100%;
+}
+
+.content {
+  margin-bottom: 2rem;
+}
+
+.comment {
+  width: 80%;
+  margin-inline: auto;
+  margin-block: 2rem;
+}
+
+.comment_box_container {
+  margin-top: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 1rem;
+}
+
+.comment_box {
+  background-color: var(--background2);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
+.comment_box .content {
+  padding-left: 102px;
+}
+
+.comment_creator {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 2rem;
+}
+
+.comment_creator > img {
+  width: 50px;
+  height: 50px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 100%;
+}/*# sourceMappingURL=Detailpost.module.css.map */

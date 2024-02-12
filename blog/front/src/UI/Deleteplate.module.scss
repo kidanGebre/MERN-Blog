@@ -1,0 +1,38 @@
+.post {
+    margin-top: 5rem;
+    width: 40%;
+    margin-inline: auto;
+    background-color: var(--background2);
+    padding: 1rem;
+    border-radius: 0.5rem;
+    max-height: 80vh;
+
+}
+
+.catagory {
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+
+    p {
+        padding: 0.4rem;
+        border: 1px solid var(--textTitle);
+        border-radius: 0.4rem;
+        color: var(--textTitle);
+    }
+}
+
+.titlePart {
+    a {
+        color: var(--text);
+    }
+}
+
+.newpost {
+    img {
+        width: 100%;
+        max-height: 25vh;
+        object-fit: cover;
+        margin-inline: auto;
+    }
+}

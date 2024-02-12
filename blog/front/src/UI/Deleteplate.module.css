@@ -1,0 +1,37 @@
+.post {
+  margin-top: 5rem;
+  width: 40%;
+  margin-inline: auto;
+  background-color: var(--background2);
+  padding: 1rem;
+  border-radius: 0.5rem;
+  max-height: 80vh;
+}
+
+.catagory {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 1.5rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.catagory p {
+  padding: 0.4rem;
+  border: 1px solid var(--textTitle);
+  border-radius: 0.4rem;
+  color: var(--textTitle);
+}
+
+.titlePart a {
+  color: var(--text);
+}
+
+.newpost img {
+  width: 100%;
+  max-height: 25vh;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin-inline: auto;
+}/*# sourceMappingURL=Deleteplate.module.css.map */

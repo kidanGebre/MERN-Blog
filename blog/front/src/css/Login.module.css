@@ -1,0 +1,38 @@
+.Login_Container {
+  width: 96%;
+  min-height: 70vh;
+  margin-inline: auto;
+}
+
+.Login {
+  margin-top: 4rem;
+  width: 30%;
+  background-color: var(--background2);
+  margin-inline: auto;
+  padding: 2rem;
+  border-radius: 0.5rem;
+}
+.Login form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.Login h2 {
+  text-align: center;
+  color: var(--text);
+}
+
+@media only screen and (max-width: 800px) {
+  .Login {
+    width: 50%;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .Login {
+    width: 80%;
+  }
+}/*# sourceMappingURL=Login.module.css.map */
